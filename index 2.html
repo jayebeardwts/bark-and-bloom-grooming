@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bark & Bloom Grooming Co. | Portfolio Project</title>
+  <meta name="description" content="A responsive dog grooming website concept designed as a small-business portfolio project.">
+  <meta name="theme-color" content="#5f7358">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Bark and Bloom Grooming Co. home">
+      <span class="brand-mark" aria-hidden="true">✿</span>
+      <span><strong>BARK &amp; BLOOM</strong><small>GROOMING CO.</small></span>
+    </a>
+    <nav aria-label="Primary navigation">
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#pricing">Pricing</a>
+      <a class="nav-cta" href="#booking">Book Now</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">NEIGHBORHOOD DOG GROOMING · LOS ANGELES</p>
+        <h1>Fresh cuts.<br>Happy pups.</h1>
+        <p class="hero-text">Gentle, professional dog grooming with clear pricing, thoughtful care, and an easy booking experience.</p>
+        <div class="hero-actions">
+          <a class="button" href="#booking">BOOK AN APPOINTMENT</a>
+          <a class="text-link" href="#services">VIEW SERVICES →</a>
+        </div>
+        <div class="hero-notes">
+          <span>Fear-free handling</span><span>Small-breed friendly</span><span>Locally owned</span>
+        </div>
+      </div>
+      <div class="hero-image-wrap">
+        <img src="hero-dog.jpg" alt="Freshly groomed dog wearing a bandana">
+        <div class="hero-badge"><strong>4.9 ★</strong><span>Loved by local pups</span></div>
+      </div>
+    </section>
+
+    <section class="services section" id="services">
+      <div class="section-heading">
+        <div><p class="eyebrow">OUR SERVICES</p><h2>Everything your pup needs to look and feel their best.</h2></div>
+        <p>Straightforward grooming packages with gentle handling and no surprise add-ons.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card"><span class="service-number">01</span><h3>Bath &amp; Brush</h3><p>Shampoo, conditioning, blow dry, brushing, ears and nail trim.</p><strong>From $45</strong></article>
+        <article class="service-card"><span class="service-number">02</span><h3>Full Groom</h3><p>Bath package plus haircut, tidy-up, paw trim and finishing style.</p><strong>From $75</strong></article>
+        <article class="service-card"><span class="service-number">03</span><h3>Puppy First Groom</h3><p>A gentle introduction to grooming for puppies under six months.</p><strong>From $40</strong></article>
+        <article class="service-card"><span class="service-number">04</span><h3>Quick Care</h3><p>Nail trims, face tidy-ups, paw care and other between-groom visits.</p><strong>From $18</strong></article>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image"><img src="groomer.jpg" alt="Dog groomer gently brushing a small dog"></div>
+      <div class="about-copy">
+        <p class="eyebrow">WHY BARK &amp; BLOOM</p>
+        <h2>Calm care, clear communication.</h2>
+        <p>We built Bark &amp; Bloom around a simple idea: grooming should feel comfortable for dogs and easy for their people.</p>
+        <div class="about-points">
+          <div><strong>One-on-one attention</strong><span>We keep appointments paced and personal.</span></div>
+          <div><strong>Transparent pricing</strong><span>Know the starting price before you book.</span></div>
+          <div><strong>Gentle products</strong><span>Skin-friendly shampoos selected for coat and sensitivity.</span></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="gallery section" id="gallery">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE FRESH-CUT CLUB</p><h2>Recent transformations</h2></div>
+        <p>A little proof that a good groom can change the whole mood.</p>
+      </div>
+      <div class="gallery-grid">
+        <figure class="gallery-large"><img src="dog-1.jpg" alt="Freshly groomed fluffy dog"></figure>
+        <figure><img src="dog-2.jpg" alt="Small groomed dog"></figure>
+        <figure><img src="dog-3.jpg" alt="Dog after a tidy haircut"></figure>
+        <figure><img src="dog-4.jpg" alt="Happy dog after grooming"></figure>
+      </div>
+    </section>
+
+    <section class="pricing section" id="pricing">
+      <div class="pricing-intro">
+        <p class="eyebrow">SIMPLE PRICING</p>
+        <h2>Start with your pup’s size.</h2>
+        <p>Final pricing may vary by coat condition, breed, temperament and requested style.</p>
+      </div>
+      <div class="price-table">
+        <div class="price-row price-head"><span>Size</span><span>Bath &amp; Brush</span><span>Full Groom</span></div>
+        <div class="price-row"><strong>Small</strong><span>$45+</span><span>$75+</span></div>
+        <div class="price-row"><strong>Medium</strong><span>$55+</span><span>$90+</span></div>
+        <div class="price-row"><strong>Large</strong><span>$70+</span><span>$110+</span></div>
+      </div>
+    </section>
+
+    <section class="testimonial">
+      <blockquote>“They took their time with my nervous rescue, and he came home looking amazing and totally relaxed.”</blockquote>
+      <p>★★★★★ · MAYA &amp; BEAN</p>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="booking-copy">
+        <p class="eyebrow">READY FOR A FRESH START?</p>
+        <h2>Request an appointment.</h2>
+        <p>Tell us a little about your dog and we’ll follow up with availability.</p>
+        <div class="contact-card"><span>Mon–Sat · 8am–5pm</span><span>West Los Angeles, CA</span><span>(310) 555-0148</span></div>
+      </div>
+
+      <form class="booking-form">
+        <div class="field"><label for="owner">Your name</label><input id="owner" type="text" placeholder="Jane Smith" required></div>
+        <div class="field"><label for="email">Email</label><input id="email" type="email" placeholder="jane@example.com" required></div>
+        <div class="field"><label for="dog">Dog's name</label><input id="dog" type="text" placeholder="Bean" required></div>
+        <div class="field"><label for="breed">Breed</label><input id="breed" type="text" placeholder="Mini Goldendoodle"></div>
+        <div class="field"><label for="size">Size</label><select id="size"><option>Small</option><option>Medium</option><option>Large</option></select></div>
+        <div class="field"><label for="service">Service</label><select id="service"><option>Bath &amp; Brush</option><option>Full Groom</option><option>Puppy First Groom</option><option>Quick Care</option></select></div>
+        <div class="field field-wide"><label for="notes">Anything we should know?</label><textarea id="notes" rows="4" placeholder="Coat condition, sensitivities, grooming preferences..."></textarea></div>
+        <button class="button field-wide" type="submit">REQUEST APPOINTMENT</button>
+        <small class="field-wide">Demo form for portfolio presentation.</small>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a class="brand footer-brand" href="#home">
+      <span class="brand-mark" aria-hidden="true">✿</span>
+      <span><strong>BARK &amp; BLOOM</strong><small>GROOMING CO.</small></span>
+    </a>
+    <span>Concept website designed &amp; developed by Jaye Beard</span>
+    <span>Portfolio Project · 2026</span>
+  </footer>
+</body>
+</html>
